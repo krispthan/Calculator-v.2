@@ -1,0 +1,80 @@
+#header{
+    text-align: center;
+    color: palevioletred;
+    font-size: 2rem;
+    position: relative;
+    margin: 0;
+    text-shadow: 2px 2px antiquewhite;
+    top: 30px;
+}
+
+#background-image{
+    background-image:url(images/bkg.jpg);
+    background-repeat:no-repeat;
+    width:100%;
+    background-size:cover;
+    height:100vh;
+    background-position:center;
+    opacity:0.7;
+}
+#display{
+    height: 66px;
+    width: 96%;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: gainsboro;
+    margin: 10px;
+    border-radius: 4px;
+}
+.cal-container{
+     width:100%;
+    max-width:270px;
+    height:auto;
+    position:relative;
+    margin: 200px auto;
+    border: black 0px solid;
+    border-radius:1px;
+    filter: drop-shadow(black 2px 0px 8px);
+    
+}
+#second-row{
+    position:relative;
+    margin-left:3%;
+}
+#first-row-display{
+    position: relative;
+    margin-left: 3%;
+}
+
+#addition-button{
+    line-height:4.5;
+    position:relative;
+}
+.btn{
+    margin:4px 0;
+
+    font-size:1rem;
+    width:100%;
+}
+#subtraction-button{
+    font-size:18px;
+}
+#multiply-button, #divisor-button{
+    font-size:15px;
+}
+#divisor-button{
+    font-size:18px;
+}
+#operator-btn-col{
+    line-height:2px;
+
+}
+
+#clearAll-btn-col, #operator-btn-col{
+    background: cornsilk;
+    
+}
+#display-container{
+    background:antiquewhite;
+}
