@@ -1,0 +1,111 @@
+<html lang="en"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+ 
+</head>
+
+<body>
+        <div id="background-image">
+        <h3 id="header">Christine's Calculator</h3>
+        <div class=" cal-container">
+                <div class="cal">
+                        <div class="row" id="first-row-display">
+                                <div class="col-md-12" id="display-container">
+                                      <div id="display"></div>
+                                </div>
+                        </div>
+                        <div class="row" id="second-row">
+                                <div class="col-md-9" id="clearAll-btn-col">
+                                        <div class="row">
+                                                <div class="col-md-6">
+                                                        <button id="C-button" type="button" class="btn btn-warning clear-all-btn cal-btn" data-type-C="clear-all" >C</button>
+                                                </div>
+                                                <div class="col-md-6">
+                                                                <button id="CE-button" type="button" class="btn btn-danger clear-entry-btn cal-btn" data-type-CE="clear-entry">CE</button>
+                                                </div>
+                                        </div>
+                                        <div class="row" id="row-7-9-btn">
+                                                <div class="col-md-4">
+                                                        <button id="seven-button" type="button" class="btn btn-info num-button cal-btn" data-num="7">7</button>
+                                                </div>
+                                                <div class="col-md-4">
+                                                        <button id="eight-button" type="button" class="btn btn-info num-button cal-btn" data-num="8">8</button>
+                                                </div>
+                                                <div class="col-md-4">
+                                                        <button id="nine-button" type="button" class="btn btn-info num-button cal-btn" data-num="9">9</button>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-4">
+                                                   <button id="four-button" type="button" class="btn btn-info num-button cal-btn" data-num="4">4</button>                
+                                                </div>
+                                                <div class="col-md-4">
+                                                   <button id="five-button" type="button" class="btn btn-info num-button cal-btn" data-num="5">5</button>   
+                                                </div>
+                                                <div class="col-md-4">
+                                                   <button id="six-button" type="button" class="btn btn-info num-button cal-btn" data-num="6">6</button>
+                                                </div>
+                                        </div>
+
+                                        <div class="row">
+                                                <div class="col-md-4">
+                                                     <button id="one-button" type="button" class="btn btn-info num-button cal-btn" data-num="1">1</button>       
+                                                </div>
+                                                <div class="col-md-4">
+                                                     <button id="two-button" type="button" class="btn btn-info num-button cal-btn" data-num="2">2</button>
+                                                </div>
+                                                <div class="col-md-4">
+                                                      <button id="three-button" type="button" class="btn btn-info num-button cal-btn" data-num="3">3</button>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-4">
+                                                      <button id="zero-button" type="button" class="btn btn-info  num-button cal-btn" data-num="0">0</button>   
+                                                </div>
+                                                <div class="col-md-4">
+                                                       <button id="period-button" type="button" class="btn btn-info  num-button cal-btn" data-num=".">.</button>
+                                                </div>
+                                                <div class="col-md-4">
+                                                         <button id="equal-button" type="button" class="btn btn-info equal-btn cal-btn " data-equal="=">=</button> 
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="col-md-3" id="operator-btn-col">
+                                        <div class="row">
+                                                <div class="col-md-12">
+                                                        <button id="divisor-button" type="button" class="btn btn-info cal-btn operator-btn" data-operator="÷">÷</button>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-12">
+                                                        <button id="multiply-button" type="button" class="btn btn-info cal-btn operator-btn" data-operator="x">X</button>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-12">
+                                                        <button id="subtraction-button" type="button" class="btn btn-info cal-btn operator-btn" data-operator="-">-</button>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-12">
+                                                        <button id="addition-button" type="button" class="btn btn-info cal-btn operator-btn" data-operator="+">+</button>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
